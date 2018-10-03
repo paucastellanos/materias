@@ -14,6 +14,7 @@ import { PyePage } from '../pages/pye/pye';
 import { PappsPage } from '../pages/papps/papps';
 import { MiPage } from '../pages/mi/mi';
 import { RobPage } from '../pages/rob/rob';
+import { CalPage } from '../pages/cal/cal';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { RobPage } from '../pages/rob/rob';
     PyePage,
     PappsPage,
     MiPage,
-    RobPage
+    RobPage, 
+    CalPage
   ],
   imports: [
     BrowserModule,
@@ -43,7 +45,8 @@ import { RobPage } from '../pages/rob/rob';
     PyePage,
     PappsPage,
     MiPage,
-    RobPage
+    RobPage, 
+    CalPage
   ],
   providers: [
     StatusBar,
